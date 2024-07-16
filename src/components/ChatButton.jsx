@@ -2,10 +2,11 @@ import React from 'react';
 
 const ChatButton = () => {
   return (
-    <div className="fixed bottom-4 right-4 bg-white rounded-full shadow-lg p-4">
+    <div className="fixed bottom-4 right-4 bg-white rounded-full shadow-lg p-4 cursor-pointer hover:bg-gray-100">
       <i className="fas fa-comments text-nykaa-pink text-2xl"></i>
     </div>
   );
 };
 
 export default ChatButton;
+
