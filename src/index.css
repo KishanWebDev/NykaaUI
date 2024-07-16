@@ -1,0 +1,19 @@
+
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.header-link:not(:last-child)::after {
+  content: "|";
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.header-link:hover {
+  color: black;
+}
+
+.header-link:hover::after {
+  color: white;
+}
